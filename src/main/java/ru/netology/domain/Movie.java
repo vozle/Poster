@@ -5,8 +5,8 @@ import lombok.AllArgsConstructor;
 @AllArgsConstructor
 
 public class Movie {
-    public int id;
-    public String title;
-    public String genre;
+    private int id;
+    private String title;
+    private String genre;
 }
 
