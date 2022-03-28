@@ -31,4 +31,20 @@ public class MovieManager {
         }
         return result;
     }
+
+    public void removeById(int id) {
+        repository.removeById(id);
+    }
+
+    public void findById(int id) {
+        repository.findById(id);
+    }
+
+    public void removeAll() {
+        repository.removeAll();
+    }
+
+    public Movie[] findAll() {
+        return repository.findAll();
+    }
 }
